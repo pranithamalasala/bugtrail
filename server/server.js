@@ -1,0 +1,1 @@
+console.log("BugTrail server is running!");
