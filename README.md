@@ -46,8 +46,7 @@ cd bugtrail
 cd server
 npm install
 ```
-
-Create a `.env` file inside `server/src/`:
+Create a .env file inside the server/ directory.`:
 
 ```env
 PORT=5000
