@@ -69,6 +69,8 @@ web_modules/
 .env
 .env.*
 !.env.example
+# Extra safety net: env file lives inside server/src in this project
+server/src/.env
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -82,6 +84,9 @@ out
 .nuxt
 dist
 .output
+
+# Vite / client build output
+client/dist/
 
 # Gatsby files
 .cache/
